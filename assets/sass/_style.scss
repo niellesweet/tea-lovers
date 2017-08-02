@@ -1,0 +1,81 @@
+.first-section{
+	background-image: url(../img/fondo-bienvenida.jpg);
+	min-height: $height-regular;
+}
+.third-section{
+	background-image: url(../img/fondo-about.jpg);
+	min-height: $height-regular;
+	@include background();
+}
+.tipos-te{
+	min-height: $height-small;
+}
+.tipos-te h2{
+	color:$color-rosado;
+	margin-top:45px;
+}
+
+.fourth-section .foto-grande{
+	background-image: url(../img/min-video-1-2.jpg);
+	min-height:$height-regular;
+	@include background();
+}
+.fourth-section .foto-chica1{
+	background-image: url(../img/min-video-3.jpg);
+	min-height: $height-small;
+	@include background();
+}
+.fourth-section .foto-chica2{
+	background-image: url(../img/min-video-5.jpg);
+	min-height: $height-small;
+	@include background();
+}
+.fourth-section .foto-mediana{
+	background-image: url(../img/min-video-6.jpg);
+	min-height: $height-small;
+	@include background();
+}
+.fifth-section{
+	background-image: url(../img/disfruta.jpg);
+	min-height: $height-regular;
+	@include background();
+}
+.sixth-section .caja-texto1{
+	min-height:$height-regular;
+}
+.sixth-section .caja-imagen1{
+	background-color: $color-beige;
+	min-height:$height-regular;
+}
+.sixth-section .caja-texto2{
+	min-height: $height-regular;
+}
+.sixth-section .caja-imagen2{
+	background-color: $color-verde;
+	min-height: $height-regular;
+}
+.sixth-section .caja-texto3{
+	min-height: $height-regular;
+}
+.sixth-section .caja-imagen3{
+	background-color: $color-rosado;
+	min-height: $height-regular;
+}
+.sixth-section
+.verde-vacio-movil{
+	min-height: $height_xsmall;
+	background-color: $color-verde;
+}
+.beige-vacio-movil{
+	min-height: $height_xsmall;
+	background-color: $color-beige;
+}
+.rosa-vacio-movil{
+	min-height:$height_xsmall;
+	background-color: $color-rosado;
+}
+.seventh-section{
+	background-image: url(../img/parallax-4.jpg);
+	min-height: $height-regular;
+	@include background();
+}
